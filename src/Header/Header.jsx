@@ -13,7 +13,7 @@ const Header = () => {
     </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-[#9873ff]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-[#9873FF]">Start Apply</a>
+                <a className="btn bg-[#9873FF] text-white">Start Apply</a>
             </div>
         </div>
     );
